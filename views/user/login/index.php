@@ -21,14 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             echo "
             <script>
                 alert('berhasil login mek')
-                document.location.href = 'http://localhost/coba2/dashboard/';
+                document.location.href = 'http://localhost/coba2/views/dashboard/';
             </script>
             ";
         } else {
             echo "
             <script>
                 alert('email atau passwordmu salah mek')
-                document.location.href = 'http://localhost/coba2/dashboard/';
+                document.location.href = 'http://localhost/coba2/views/dashboard/';
             </script>
             ";
         }

@@ -85,7 +85,7 @@ require("../../module/function.php")
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="return confirm('Are you sure you want to logout?')">
+                            <a class="nav-link" href="http://localhost/coba2/" onclick="return confirm('Are you sure you want to logout?')">
                                 <i class="bi bi-box-arrow-left"></i> Logout
                             </a>
                         </li>
